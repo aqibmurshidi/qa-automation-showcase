@@ -1,0 +1,24 @@
+{
+  "name": "qa-automation-showcase",
+  "version": "1.0.0",
+  "description": "Professional QA Automation Framework using Playwright - UI and API Testing",
+  "author": "Your Name",
+  "license": "MIT",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:api": "playwright test api/",
+    "test:web": "playwright test web/",
+    "report": "playwright show-report",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.10.0",
+    "eslint": "^9.15.0",
+    "prettier": "^3.4.0"
+  }
+}
